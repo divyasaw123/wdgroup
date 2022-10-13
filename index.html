@@ -1,0 +1,949 @@
+
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> Home Page - DPS</title>
+      
+        <style type="text/css">
+            body{
+    			padding: 0;
+    			margin:0;
+			}
+		#header{
+    			width:100%;
+    			padding: 50px 0;
+    			background-color: #03274B;
+			}
+
+		#head1{
+    			margin:25px auto;
+    			height: 130px;
+   		 	width:900px;
+			}	
+
+		#head1 #logo img{
+  			width:80px;
+ 		 	height:80px;
+  			float:left;
+			}
+
+		#head1 #schoolname{
+    			float:left;
+    			margin:0;
+			}
+
+		#head1 #schoolname h1{
+    			color:white;
+    			font-family:'Times New Roman', Times, serif;
+    			font-size: 40px;
+   		 		margin-left:10px;
+				font-weight:bolder;
+			}
+
+		#head1 #schoolname p{   
+    			color:rgb(78, 78, 179);
+    			margin-left:10px;
+				margin-top:-20px;
+		}
+
+		#head1 #button1 button{
+   			width:150px;
+  			height:60px;
+   			font-weight:700;
+   			font-size: 16px;
+   			background: linear-gradient(#F2A97C, #ed7e36, #F2A97C);
+			margin:20px 10px;
+			}
+
+		#head2{
+    			width:100%;
+    			text-align: center;
+			}
+
+		#head2 button{
+    			width:400px;
+    			height:80px;
+    			margin: 0 auto;
+    			background:linear-gradient(#f0824f,#D4672E);
+    			color: white;
+    			border:1px #ed7e36;
+			}
+
+		#head2 button h2{
+  			margin:0;
+  			padding: 10px;
+			}
+
+		#head2 button h3{
+ 			 margin:0;
+   			display: inline-block;
+   			text-align: left;
+			}
+
+
+		#head2 button .rs{
+    			padding-left: 100px;
+    			text-align: end;
+ 			}
+		
+ 		#head3 h3{
+    			margin:10px;
+    			color:yellow;	
+ 			}
+
+ 		#navarea{
+    			width:100%;
+    			height: 150px; 
+    			background-color: #072C53;
+    			border-top: 0.25px solid rgb(90, 90, 197);
+    			border-bottom: 0.25px solid rgb(90, 90, 197);
+ 			}
+
+ 		#navarea #navtab{
+    			width:850px;
+    			margin: 0px auto;
+    			padding: 10px;
+ 			}
+
+ 		#navtab a{
+    			position: relative !important;
+    			color: white;
+    			padding:0px 15px;
+    			font-size: 13px;
+			font-weight:bold;
+    			font-family: serif;
+    			text-decoration: none;
+    			display: block;
+    			float: left;
+ 			}
+
+ 
+ 		#navtab a:hover{
+    			color: rgb(130, 130, 230);
+ 			}
+
+ 		#navtab button{
+    			width:95px;
+   			height: 35px;
+    			background-color: #f19317;
+    			color: black;
+    			font-weight: 700;
+    			border:none;
+ 			}
+
+	 	#navtab1{
+    			margin-top:20px;
+ 			}
+ 		#navtab1 .special{
+    			padding:10px;
+    			background-color: #21B24B;
+    			color: yellow;
+    			font-size:20px;
+    			font-weight: 900;
+ 			}
+
+		.dropdown{
+    			position: absolute;
+    			z-index: 10;
+    			display: none;
+    			border: 1px solid #7F99A9;
+    			border-top:none;
+    			background-color: #072C53;
+    			color:white;
+    			width: 200px;
+			}
+
+		#navtab a:hover .dropdown{
+    			position: absolute;
+    			display: block;
+  
+			}
+
+		.dropdown ul{
+  			margin:0;
+  			padding: 20px;
+			}
+
+		.dropdown ul li{
+    			padding: 5px 0;
+    			list-style: none;
+			}
+
+		.dropdown ul li:hover{
+    		color:rgb(130, 130, 230);
+			}
+ 		#thirdarea{
+    			width:100%;
+    			height:400px;
+				padding: 50px 0;
+			
+    			background-color: #04182F !important;
+ 			}
+		
+ 		
+		#thirdarea h3{
+					color:white;
+					text-align: center;
+					font-weight:bolder;
+
+				}
+ 		#fourtharea{
+    			width:100%;
+    			text-align:center;
+    			background-color:#F8F9F3;
+ 			}
+		
+ 			 #thirdarea #slidearea{
+				width: 1200px;
+				height: 400px;
+
+				margin: 0 auto;
+				
+ 			 }
+      
+ 		#thirdarea #slidearea img{
+    			max-width: 600px;
+    			height: 400px;		
+ 			}
+
+		#thirdarea #slidearea1{
+			height:380px;
+			width:280px;
+			float:left;
+			background:grey;
+			padding:10px;
+			overflow: hidden;
+			
+			}
+
+		#thirdarea #slidearea2{
+			height:380px;
+			width:280px;
+			float:right;
+			background:grey;
+			overflow: hidden;
+			padding:10px;
+		
+
+		}
+
+
+		
+	#thirdarea p{
+				color:yellow;
+				margin:15px 0;
+
+				}
+
+ 		/* .fourtharea .slidearea{
+   
+			} */
+			#fourtharea #rightarea{
+    			width: 550px;
+    			float: left;
+    			height:1500px;
+    			margin-left:20px;
+  
+			}
+
+		
+																																																						
+		
+
+		#msgarea{
+    			width:950px;
+    			height: 1500px;
+    			margin:0 auto;
+			}
+		#msgarea #leftarea{
+    			width:380px;
+    			float: left;
+    			height:1500px;
+    
+			}
+
+
+
+		#msgarea #leftarea #quicklink{
+    			width: 370px;
+    			height: 250px;
+   
+			}
+
+		#msgarea h4{
+   			text-align: left;
+   			color: #8199A9;
+   			padding: 8px 0;
+   			border-bottom: 5px solid #8199A9;
+   			font-size: 15px;
+ 			}
+
+		#msgarea ul li{
+   			text-align: left;
+   			padding:4px 0;
+   			font-size: 14px;
+   			margin:0;
+   			list-style-type: none;
+   			color: #5c5a56;
+
+			}
+
+		#msgarea ul{
+    			padding: 0;
+			}
+
+		#msgarea ul li::before{
+    			content: "\00BB";
+			}	
+
+		#msgarea ul li img{
+    			padding:10px;
+			}	
+
+
+
+		#quicklink #leftlist{
+  
+    			float: left;
+    			padding-right:16px;
+			}
+
+		#quicklink #rightlist{
+
+    			float:left;
+			}
+
+		#quicklink ul li:hover{
+  			background-color: #E9EBED;
+			}
+
+
+		#msgarea #gallary{
+    			width: 370px;
+    			height: 345px;
+			}
+
+		#msgarea .photo{
+    			float:left;
+    			width: 165px;
+    			height:115px;
+    			margin:5px;
+    			border: solid 5px #fff;
+    			box-shadow:2px #04182F
+
+			}
+
+		#msgarea .photo:hover{
+    			border: solid 5px #8199A9
+			}
+
+		#msgarea .photo img{
+    			width: 165px;
+    			height: 115px
+			}
+
+		#aboutarea p{
+    			text-align: justify;
+    			color: #858b92;
+    			font-size: 16px;
+    			line-height: 1.3;
+				font-weight:bold;
+			}
+
+		#aboutarea img{
+    			max-width: 100%;
+			}
+
+
+		.msg{
+    			text-align: end;
+			}
+
+		.msg p{
+    			text-align: justify;
+    			overflow-x: hidden;
+    			color: #858b92;
+    			font-size: 16px;
+    			line-height: 1.3;
+				font-weight:bold;
+			}
+		.msg a{
+			text-decoration: none;
+			}
+
+		.msg a::after{
+  			content: " \00BB";
+			}
+
+		#rightarea .box{
+    			padding-bottom: 30px;
+    			border:0;
+    			border-bottom: 1px solid #8199A9;
+			}
+		#rightdown{
+    			background-color: lightpink;
+    			width: 550px;
+			}
+
+
+		#itlab{
+    			width: 175px;
+    			float: left;
+    			text-align: left;
+			}
+
+		#itlab img{
+    			width:165px;
+    			height: auto;
+    
+			}
+
+		#rightarea .data{
+    			width: 154px;
+    			border:solid 1px #8199A9;
+    			padding: 5px;
+			}
+
+		#rightarea .data p{
+    			text-align: left;
+    			color: #858b92;
+    			font-size: 16px;
+    			line-height: 1.3;
+				font-weight:bold;
+			}
+
+		#itlab a{
+    			text-decoration: none;
+    			padding-top: 10px;
+    			float: left;
+			}
+
+		#rightdown img{ 
+    			max-width:154px;
+    			height:auto;
+			}
+		#itlab a::after{
+    			content: " \00BB";
+  			}
+
+		#sport{
+    			width: 170px;
+    			float: left;
+    			padding: 0 10px;
+    			padding-bottom: 20px;
+			}
+
+		#sport .box{
+    			padding-bottom:20px;
+    			border-bottom: solid 1px #8199A9;
+			}
+
+		#basket{
+    			padding-top: 20px;
+			}
+
+		#sciencelab{
+    			width:180px;
+    			float: left;
+			}
+
+		#sciencelab a{
+    			text-decoration: none;
+    			padding-top: 10px;
+    			float: left;
+			}
+
+		#sciencelab a::after{
+    			content:  " \00BB";
+			}
+
+		#footer{
+    			background-color:  #03274B;
+    			width:100%;
+    			height:590px;
+			}
+
+		#footerup{
+    			padding-top: 50px;
+    			width:950px;
+    			height:400px;
+    			margin:0 auto;
+   
+			}
+
+		#leftfoot{
+    			border-right: 2px solid #7F99A9;
+    			width:378px;
+    			color: white;
+    			float: left;
+			}
+
+		#leftfoot h3{
+    			color: #7F99A9;
+    			font-family:serif;
+   
+			}	
+
+		#contact{
+    			padding-top: 50px;
+			}
+
+		#rightfoot{
+    			float: left;
+    			width:570px;
+    			color: white;
+			}
+
+		#admin, #girls, #boys{
+    			float: left;
+    			width: 160px;
+    			text-align: left;
+   		 	padding-left:30px;
+			}
+
+		#rightfoot ul li{
+  			list-style: none;
+  			padding: 10px 0;
+			}
+
+		#rightfoot ul{
+    			margin:0;
+    			padding: 0;
+			}
+		#rightfoot h5{
+    			color: #7F99A9;
+			}
+
+		#footerdown{
+    			width:950px;
+    			color: #7F99A9;
+    			margin:50px auto;
+    			border-top:1px solid #7F99A9;
+    
+			}
+
+		/* #footerdown p{
+    			margin:0;
+    			float: left;
+    			padding: 40px 0;
+			} */
+			#footerdown ul{
+				text-align:center;
+				margin-left:60px;
+			}
+			#footerdown ul li{
+				float:left;
+				margin:15px;
+				
+				list-style-type: none;
+			}
+			
+		#footerdown img{
+   			
+			}
+		
+
+    </style>
+</head>
+    <body>
+        <div id="mainarea">
+            <div id="header"> 
+                
+                <div id="head1">
+                    <div id="logo">
+                        <img src="Logo.png"/>
+                    </div>
+                    <div id="schoolname">
+                        <h1> Dhanbad Public School</h1>
+                        <p>Affiliation No. 3430086</p>
+                    </div>
+                    <div id="button1">
+                        <button> Online <br/> Payment</button>
+                    </div>
+
+                </div>
+
+                <div id="head2">
+                  
+                        <button> 
+                             <h2> VIMLA BANSAL GIRLS HOSTEL</h2>
+                             
+                                <h3>ADMISSION 2022-23</h3>
+                                <h3 class="rs"> Click Here</h3>
+                           
+                            
+                        </button>
+                  
+                </div>
+
+                <div id="head3">
+                    <marquee direction="up"> 
+                      
+                    </marquee>
+               
+                </div>
+
+            </div>
+
+            <div id="navarea">
+
+                <ul id="navtab">
+
+
+                </ul>
+                 
+                <div id="navtab"> 
+                
+                   <a href="#">HOME
+                    
+                   </a>
+                    <a href="#" class="aboutlink">ABOUT US 
+                        <div class="dropdown">
+                           <ul>
+                                <li>CHAIRMAN MESSAGES</li>
+                                <li>PRINCIPAL'S MESSAGES</li>
+                                <li>INFRASTRUCTURE</li>
+                                <li>AFFILIATION STATUS
+                                </li>
+                               
+
+                           </ul>
+                        </div>
+                    </a>
+                    <a href="#">ACADEMIC
+                        <div class="dropdown">
+                            <ul>
+                                 <li>STUDENT</li>
+                                 <li>SCHOOL RULES</li>
+                                 <li>ACADEMIC CALENDER</li>
+                                 <li>HOSTAL RULES
+                                 </li>ADMISSION</li>
+                                 <li>BOOKLIST</li>
+                                 <li> TRANSFER CERTIFICATE DETAILS</li>
+ 
+                            </ul>
+                         </div>
+                    </a>
+                    <a href="#">ADMINISTRATION
+                        <div class="dropdown">
+                            <ul>
+                                 <li>SVT MEMBERS</li>
+                                 <li>EXECUTIVE COMMITTEE</li>
+                                 <li>STAFF MEMBERS</li>
+                                 <li>STAFF SALARY</li>
+                                <li> TEACHERS DETAILS</li>
+ 
+                            </ul>
+                         </div>
+                    </a>
+                    <a href="#">PROSPECTUS
+                        <div class="dropdown">
+                            <ul>
+                                 <li>SENIOR PROSPECTUS</li>
+                                 <li>TGM PROSPECTUS</li>
+                              </ul>
+                         </div>
+                    </a>
+                    <a href="#">RESULT
+                        <div class="dropdown">
+                            <ul>
+                                 <li>AISSC 2020</li>
+                                 <li>AISSCE 2020</li>
+                              </ul>
+                         </div>
+                    </a>
+                    <a href="#" class="activitylink">ACTIVTIES
+                        <div class="dropdown">
+                            <ul>
+                                 <li>CREATIVE ACTIVITIES</li>
+                                 <li>PHYSICAL ACTIVITIES</li>
+                              </ul>
+                         </div>
+                    </a>
+                    <button>Mandatory  Disclosure</button>
+                    <div id="navtab1">
+                      <a href="#" class="special">MISSION 2022</a>
+                      <a href="#">CONTACTS</a>
+                    </div>
+                 </div>
+            </div>
+
+            <div id="thirdarea">
+			
+
+				 <div id="slidearea">
+
+					<div id="slidearea1"> 
+						<h3>NOTICE</h3>
+				
+						<marquee direction="up">
+						
+							<p>DHANBAD PUBLIC SCHOOL ASSIMILATES THE EXQUISITE MOMENTS OF THE ACADEMIC SESSION 2021-22 AND WREATES THEM IN AVALOKAN CLICK HERE</p>											
+							<p>DHANBAD PUBLIC SCHOOL HAS THE PRIVILEGE TO BE ONE OF THE 100 SCHOOLS IN INDIA CHOSEN FOR YOUNG WARRIOR NXT LIFE SKILLS 										INITIATIVE CLICK HERE</p>
+							<p>DHANBAD PUBLIC SCHOOL ENTHUSIASTICAlly PARTICIPATES IN PARIKSHA PE CHARCHA 2022 CLICK HERE</p>
+							<p>DHANBAD PUBLIC SCHOOL JOINS THE100 DAYS READING CAMPAIGN LAUNCED BY HON'BLE SHIKSHA MANTRI FOR CHILDREN STUDYING IN BALVATIKA 									TO CLASS VIII CLICK HERE</p>
+						
+						</marquee>
+					</div>
+
+
+				   <img src="2.jpg" />
+
+				   <div id="slidearea2">
+					<h3>NOTICE</h3>
+					<marquee direction="up">
+				  
+					 
+						  <p>DHANBAD PUBLIC SCHOOL ASSIMILATES THE EXQUISITE MOMENTS OF THE ACADEMIC SESSION 2021-22 AND WREATES THEM IN AVALOKAN CLICK HERE</p>											
+				<p>DHANBAD PUBLIC SCHOOL HAS THE PRIVILEGE TO BE ONE OF THE 100 SCHOOLS IN INDIA CHOSEN FOR YOUNG WARRIOR NXT LIFE SKILLS 										INITIATIVE CLICK HERE</p>
+				<p>DHANBAD PUBLIC SCHOOL ENTHUSIASTICAlly PARTICIPATES IN PARIKSHA PE CHARCHA 2022 CLICK HERE</p>
+				<p>DHANBAD PUBLIC SCHOOL JOINS THE100 DAYS READING CAMPAIGN LAUNCED BY HON'BLE SHIKSHA MANTRI FOR CHILDREN STUDYING IN BALVATIKA 									TO CLASS VIII CLICK HERE</p>
+			
+						
+				  
+				  </marquee>
+			  </div>
+
+				</div>
+
+				
+			
+            </div>
+
+            <div id="fourtharea">
+				
+             
+
+                <div id="msgarea">
+                    <div id="leftarea">
+                        <div id="quicklink">
+                            <h4> QUICK LINKS</h4>
+
+                            <div id="leftlist">
+                            <ul>
+                                <li><img src="tc.jpg" /></li>
+                                <li>  INFRASTRUCTURE</li>
+                                <li>  ACADEMIC CALENDER </li>
+                                <li>  CHAIRMAN</li>
+                                <li>  VIMLA BANSAL HOSTEL</li>
+                        
+                            </div>
+                            <div id="rightlist">
+                                <ul>
+                                <li> YOUTUBE CHANNEL </li>
+                                <li> SHIKSHA VIKASH TRUST</li>
+                                <li> SCHOOL RULES</li>
+                                <li> EXECUTIVE COMMITTEE</li> 
+                                <li> GALLARY</li>
+                                <li> PRINCIPAL</li>
+                                <li> SCHOOL RESULT</li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <div id="gallary">
+                            <h4> LATEST GALLARY IMAGE</h4>
+                            <div class="photo"><img src="p1.jpg"></div>
+                            <div class="photo"><img src="p2.jpg"></div>
+                            <div class="photo"><img src="p3.jpg"></div>
+                            <div class="photo"><img src="p4.jpg"></div>
+                        </div>
+
+                        <div id="aboutarea">
+                            <h4>ABOUT DHANBAD PUBLIC SCHOOL</h4>
+                            <img src="p5.jfif" />
+                            <p>
+                                Dhanbad Public School has emerged as a shining star on the horizon of educational endeavour.
+                                It is set in picturesque surroundings, with the Dhangi Hills in the foreground and lush green
+                                fields behind and offers an ideal schooling for children.
+                                It is spread over eleven acres of land. The School is a unit of Shiskha Vikas Trust,
+                                Dhanbad and is situated on the Dhanbad-Gobindpur Road, near Bhuinphore Mandir, in a pollution
+                                free environment, away from the din and bustle of city life. The School has an adequate water supply,
+                                modern sanitary arrangement, electric lighting and power. The School aims at the education of children 
+                                from all communities and prepares girls and boys in separate blocks for the examination conducted by the
+                                Central Board of Secondary Education, New Delhi (CBSE), (10+2). The medium of instruction in English. However,
+                                Sanskrit is also taught from Std. IV. To give quality education, the school has a knowledgeable, well
+                                trained and dedicated staff.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div id="rightarea">
+
+                        <div id="messagearea">
+                            <h4>MESSAGES</h4>
+                            <div class="box">
+                                <div class="photo">
+                                    <img src="principal.jpg"/>
+                                </div>
+                                <div class="msg">
+
+                                    <p>
+                                        Care and Control" are the two facets of the same coin. Over care may make children  timid and diffident and excess of control may turn  into a rebel. However, that doesn't imply that we should stop caring or controlling them.
+                                        Control with a touch of careful observation can help in shaping the children . If we encourage children to adopt appropriate behavioural patterns from early childhood, we will need to spend less time in correcting them at later stage .
+                                        Children are the best emulators. They copy their elders and learn maximum from them. Therefore, our conduct should be exemplary . We need to be role models for them.
+                                    </p>
+                                    <a href="#">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="photo">
+                                    <img src="Cocurri.jpg" />
+                                </div>
+                                <div class="msg">
+                                   <p>
+                                    To encourage talent of all kinds and stretch the capacity of each individual, the work and activities are divided under four headings 1)Academic Work 2) Creative activites 3) Physical Activities 4) Training in responsible behaviour
+                                   </p>
+                                   <a href="#">Continue Reading</a>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div id="rightdown">
+                      <div id="itlab">
+                          <h4> IT LAB</h4>
+
+                          <div class="box">
+                                 <div class="data">
+                                 <img src="itlab.jpg"/>
+                                 <p>
+                                To keep pace with the scientific advancement and with the aim of making education hi-tech, the two multimedia Computer labs consisting of student Management. Features of Net support provide full control on students' desktop. The lab is controlled by two servers consisting of 20 nodes. Web control, Application control, desktop management,file sharing etc. are managed on the server's desktop..
+                                 </p>
+
+                                 </div>
+                                 <a href="#">Take The Tour </a>
+                          </div>
+                         
+                        </div>
+ 
+
+                        <div id="sport">
+                            <h4>SPORTING ACTIVTIES</h4>
+                            <div class="box">
+                                    <div class="data">
+                                      <img src="swimming.jpg"/>
+                                         <p>
+                                              Swimming Pool, with a filtration plant is well maintained by two pool staff and experienced coaches.
+                                         </p>
+                                    </div>
+                            </div>
+                            <div class="box " id="basket">
+                                <div class="data ">
+                                    <img src="Basketball.jpg"/>
+                                    <p>
+                                        The school has created infrastructure that allows student to play a wide variety of Sports frm Team games like Basketball to individual sports like Chess,Table tennis, badminton,Atheletics, judo etc.
+                                    </p>
+                                </div>
+                            </div>
+                           
+
+                        </div>
+
+
+                            
+                        <div id="sciencelab">
+                            <h4>SCIENCE LAB</h4>
+                            <div class="box">
+                                <div class="data">
+                                    <img src="chemistry.jpg"/>
+                                    <p>
+                                        In the well equipped & maintained Chemistry lab, students enjoy the fun of observation and relate with their study package. Experiments done in Chemistry lab help the students to have a deeper insight into the subject and offer an ambience of creativity & invention.meuip.co
+                                    </p>
+                                </div>
+                                <a href="#">
+                                    Take The Tour
+                                </a>
+                            </div>
+
+                        </div>
+
+                       </div> 
+
+
+                    </div>
+
+                </div> 
+
+            </div>
+
+
+            <div id="footer">
+
+                <div id="footerup">
+                        <div id="leftfoot">
+                            <h3>DHANBAD PUBLIC SCHOOL</h3>
+                            <p>Govindpur Road</p>
+                            <p>Po- KG Ashram</p>
+                             <p>Dhanbad</p>
+                             <p>826008</p>
+                             <div id="contact">
+                                  <p> Tel: 9204794995 , 9204797187 </p>
+                                  <p> Fax: 0326-2227039 </p>
+                                  <p> Email: dnb@dhanbadpublicschool.edu.in</p>
+                             </div>
+                        </div>
+                        <div id="rightfoot">
+                            <div id="admin">
+                                <h5> ADMINISTRATION</h5>
+                                <ul>
+                                    <li>Chairman</li>
+                                    <li>President</li>
+                                    <li>Secretary</li>
+                                    <li>Principal</li>
+                                    <li>Vice Principal</li>
+                                    <li>Teachers</li>
+                                    <li>Admin Staff</li>
+                                    <li>Reception</li>
+                                    <li>Grade IV staff</li>
+                                </ul>
+                            </div>
+                            <div id="girls">
+                                <h5>GIRLS BLOCK</h5>
+                                <ul>
+                                    <li>Senior Girls Block</li>
+                                    <li>Junior Girls Block</li>
+                                    <li>Hardeo Ram Bhawan</li>
+                                    <li>Swimming Pool</li>
+                                    <li>Library</li>
+                                    <li>Computer Lab</li>
+                                    <li>Basketball Court</li>
+                                    <li>Play Ground</li>
+                                    
+                                </ul>
+                            </div>
+                            <div id="boys">
+                                <h5>BOYS BLOCK</h5>
+                                <ul>
+                                    <li>Senior Boys Block</li>
+                                    <li>Matram Bhawan</li>
+                                    <li>Tara Gutgutia Montessori</li>
+                                    <li>Skating Rink</li>
+                                    <li>Kalawati Udyan</li>
+                                    <li>Library</li>
+                                    <li>Computer Lab</li>
+                                    <li>Play Ground</li>
+                                    
+                                </ul>
+                            </div>
+
+                        </div>
+                </div>
+                <div id="footerdown">
+			
+                   <!-- <p>Copyright © 2014 - DIVYA SAW- www.dhanbadpublicschool.edu.in</p> <img src="count.gif" /> -->
+				   <ul>
+					<li>Copyright © 2014</li>
+					<li> DIVYA SAW</li>
+					<li>www.dhanbadpublicschool.edu.in</li>
+					<li><img src="count.gif" /></li>
+				   </ul>
+			
+                </div>
+
+
+            </div>
+
+        </div>
+    </body>
+</html>
